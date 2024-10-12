@@ -1,0 +1,15 @@
+
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="yukams.app.background_locator_2">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+     <!-- <service
+            android:name="com.transistorsoft.locationmanager.location.BackgroundLocationService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false" /> -->
+</manifest>
